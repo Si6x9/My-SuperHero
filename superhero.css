@@ -1,0 +1,45 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(203, 221, 255);
+}
+.container{
+    text-align: center;
+}
+#error{
+    color: red;
+    display: none;
+}
+
+button {
+    background-color: gold;
+    border: 2px dotted rgb(255, 0, 0);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    margin: 10px;
+}
+
+img {
+    border-radius: 6px;
+    max-width: 350px;
+    height: 350px;
+}
+#sts{
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin: 10px auto;
+    background-color: black;
+    border: 2px dotted rgb(255, 253, 248);
+    border-radius: 5px;
+    color: gold;
+    width: fit-content;
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
